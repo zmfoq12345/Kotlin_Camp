@@ -12,7 +12,15 @@ fun main(){
     str3 = "Fighting"
 
     println(str1)
-    println(str2)
-    println(str3)
+    println(str2+"      "+str3)
 
+    hello1()
+    println(hello2())
+}
+
+fun hello1(){
+    println("call Hello1")
+}
+fun hello2():String{
+    return "kotlin is fun"
 }
