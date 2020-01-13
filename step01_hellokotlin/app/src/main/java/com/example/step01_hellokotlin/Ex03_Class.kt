@@ -11,4 +11,18 @@ fun main(){
     println(ob2.age.toString() + ", " + ob2.name)
 }
 
-class Person(var age:Int? = null, var name:String? = null)
+class Person{
+    constructor()
+    constructor(age:Int, name:String){
+        this.age = age
+        this.name = name
+    }
+    var age:Int = 0
+        set(value){
+            field = value+5
+        }
+    var name:String = ""
+        set(value){
+            field = value+"님"
+        }
+}
