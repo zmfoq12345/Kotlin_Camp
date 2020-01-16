@@ -1,4 +1,4 @@
-package com.example.step01_hellokotlin
+package com.example.step01_hellokotlin.Ex_Kotlin
 
 fun main(){
     var ob1 = Person(19, "Yang")

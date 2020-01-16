@@ -1,6 +1,4 @@
-package com.example.step01_hellokotlin
-
-import java.util.*
+package com.example.step01_hellokotlin.Ex_Kotlin
 
 fun main(){
     var arr1 = listOf("A", "B","C","D")             // 가변

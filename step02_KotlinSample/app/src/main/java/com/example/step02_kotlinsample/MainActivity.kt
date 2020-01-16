@@ -20,5 +20,13 @@ class MainActivity : AppCompatActivity() {
         btnMove.setOnClickListener{
             startActivity(Intent(this@MainActivity, BmiKotlinActivity::class.java))
         }
+
+        btn1.setOnClickListener{
+            Toast.makeText(applicationContext, "Java를 선택함", Toast.LENGTH_SHORT).show()
+        }
+
+        btn2.setOnClickListener{
+            startActivity(Intent(this@MainActivity, TestActivity::class.java))
+        }
     }
 }

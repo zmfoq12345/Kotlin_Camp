@@ -1,4 +1,4 @@
-package com.example.step01_hellokotlin
+package com.example.step01_hellokotlin.Ex_Kotlin
 
 fun main(){
     val str1 = "Good Morning"
